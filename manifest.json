@@ -1,11 +1,11 @@
 {
     "id": "sigma-pwa",
     "name": "Installable app (PWA)",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "DJLegends",
     "description": "Lets Chrome install Project Σ as a standalone app with no browser bar: adds a web app manifest and a service worker. Ships off; switch it on, reload the page, then use Chrome's Install app.",
     "requires": { "api": "2.5" },
     "client": "client/index.js",
     "server": "server/index.js",
-    "settings": { "themeColor": "#0b1220", "backgroundColor": "#0b1220", "startPath": "/library.html" }
+    "settings": { "autoTheme": true, "themeColor": "#0b1220", "backgroundColor": "#0b1220", "startPath": "/library.html" }
 }

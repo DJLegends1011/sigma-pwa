@@ -26,6 +26,8 @@ Chrome will then register the service worker and offer **Install app** instead o
 
 ## Changing Settings
 
-You can customize **Theme color**, **Background color**, and **Start path** in **Settings > Extensions > Installable app (PWA)**.
+In **Settings > Extensions > Installable app (PWA)**:
+- **Match active theme colors automatically** (default: on): Syncs the status bar and launch background to your active Project Σ theme automatically. Switch it off to pick custom **Theme color** and **Background color** swatches.
+- **Start path**: Defaults to `/library.html`.
 
-> **Note:** Chrome reads the web app manifest when the app is installed. After changing these settings, uninstall and reinstall the app for Chrome to pick them up.
+> **Note:** Chrome reads the web app manifest when the app is installed. After changing the start path or launch background color, uninstall and reinstall the app for Chrome to pick them up.
